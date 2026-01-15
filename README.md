@@ -10,7 +10,7 @@ A simple web app that helps students calculate and visualize their daily carbon 
 - Visual breakdown using Google Charts
 
 #Live Demo
-[Open in Browser](git hub link)
+[Open in Browser](https://github.com/sam-codes-dev/EcoLife-Student-Carbon-Footprint-Tracker.git)
 
 #Tech Stack
 - HTML, CSS, JavaScript

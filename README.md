@@ -1,5 +1,6 @@
 #EcoLife-Student-Carbon-Footprint-Tracker
 A student-centric carbon footprint tracking web application
+
 A simple web app that helps students calculate and visualize their daily carbon footprint.
 
 #Features

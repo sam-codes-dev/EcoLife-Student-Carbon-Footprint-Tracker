@@ -1,3 +1,6 @@
+// Display user info
+const userName = localStorage.getItem('userName') || "Student";
+document.getElementById('welcomeUser').innerText = `Hello, ${userName}!`;
 // Load Google Charts
 google.charts.load('current', { packages: ['corechart'] });
 

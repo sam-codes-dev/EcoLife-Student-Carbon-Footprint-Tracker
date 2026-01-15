@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EcoLife | Personal Carbon Footprint Tracker</title>
+
+    <!-- Google Charts (Google Technology) -->
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <h1>EcoLife</h1>
+        <p class="tagline">Measure. Understand. Improve your daily carbon footprint.</p>
+    </header>
+
+    <main class="app-container">
+
+        <section class="input-section">
+            <h2>Daily Activity Input</h2>
+
+            <div class="field">
+                <label for="transport">Distance travelled by car (km)</label>
+                <input type="number" id="transport" min="0" placeholder="e.g. 12">
+            </div>
+
+            <div class="field">
+                <label for="food">Primary meal type</label>
+                <select id="food">
+                    <option value="veg">Vegetarian</option>
+                    <option value="nonveg">Non-Vegetarian</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="ac">Air conditioner usage (hours)</label>
+                <input type="number" id="ac" min="0" placeholder="e.g. 3">
+            </div>
+
+            <div class="field">
+                <label for="water">Shower duration (minutes)</label>
+                <input type="number" id="water" min="0" placeholder="e.g. 8">
+            </div>
+
+            <button id="calculateBtn">Calculate Footprint</button>
+        </section>
+
+        <section class="output-section">
+            <h2>Results</h2>
+            <div id="result" class="result-text">Enter values to calculate your footprint.</div>
+            <div id="suggestion" class="suggestion-text"></div>
+        </section>
+
+        <section class="chart-section">
+            <h2>Emission Breakdown</h2>
+            <div id="chart"></div>
+        </section>
+
+    </main>
+
+    <footer class="app-footer">
+        <p>EcoLife • Built for student sustainability awareness</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
